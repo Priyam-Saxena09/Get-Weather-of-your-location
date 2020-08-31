@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+body
+{
+    background: url("Images/images.gif");
+}
+.bod
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13%;
+}
+.cont
+{
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    margin-right: 10%;
+    background: rgba(70,140,210,0.5);
+    align-items: center;
+    justify-content: center;
+    color:lime;
+}
+h1
+{
+    margin-left:5%;
+    font-family: 'Sirin Stencil';
+    font-size: 290%;
+}
+.cont1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Milonga';
+    font-size: 260%;
+    background: rgba(80,240,160,0.5);
+    height:277px;
+    color: mediumblue;
+    margin-right:8%
+}
+button
+{
+    background-color: cyan;
+    font-size: 150%;
+    font-family: 'Sirin Stencil';
+    border:2px solid green;
+    margin-bottom: 2%;
+}
